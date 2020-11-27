@@ -101,7 +101,7 @@ for tweet in tweets:
         'hit_id': response['HIT']['HITId']
     })
     print(mturk_environment['preview'] + "?groupId={}".format(hit_type_id))
-    while False:    # It needs several seconds to obtain the results
+    while False:     # It needs several seconds to obtain the results
         item = results[-1]
         getResults(item)
         if len(item['answers']) != 0:

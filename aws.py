@@ -3,8 +3,8 @@
 import boto3
 
 region_name = 'us-east-1'
-aws_access_key_id = 'AKIAJURV3EUSKSHYAUFA'
-aws_secret_access_key = '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'
+aws_access_key_id = ''
+aws_secret_access_key = ''
 
 endpoint_url = 'https://mturk-requester-sandbox.us-east-1.amazonaws.com'
 
